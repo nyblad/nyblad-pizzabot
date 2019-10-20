@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css">
+  <title>Project 4: Pizzabot</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to the Pizza Bot</h1>
+  </header>
+
+  <section class="maincontent">
+
+    <section class="pizzamenu">
+      <h2>Pizza menu</h2>
+      <div>
+        <p>Hawaiian pizza 80 kr</p>
+        <p>Pepperoni pizza 80 kr</p>
+        <p>Vegetarian pizza 80 kr</p>
+      </div>
+    </section>
+
+    <form id="orderform" action="https://httpbin.org/anything" target="_blank" method="POST">
+
+      <label for="pizzaname" class="bot">What pizza do you want?</label>
+      <input class="customer" id="input-pizza" type="text" name="pizzaname"
+        placeholder="hawaiian / vegetarian / pepperoni" required>
+
+      <label for="pizzaquantity" class="bot">How many pizzas do you want?</label>
+      <input class="customer" id="input-quantity" type="number" name="pizzaquantity" min="1" max="10" placeholder="1-10"
+        required>
+
+
+
+      <button id="button">Click here to order</button>
+
+      <div class="message" id="confirm"></div>
+
+    </form>
+
+  </section>
+
+  <footer>
+    <div class="footer-text">&copy; Sofie Nyblad 2019</div>
+  </footer>
+
+  <script src="pizzabot.js"></script>
+
+</body>
+
+</html>
