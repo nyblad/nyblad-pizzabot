@@ -140,7 +140,7 @@ footer {
     width: 100%;
   }
   .pizzamenu {
-    width: 70%;
+    width: 85%;
   }
   form {
     width: 90%;
@@ -150,8 +150,9 @@ footer {
     font-size: 15px;
   }
   button {
-    width: 70%;
+    width: 60%;
     font-size: 14px;
+    padding: 15px 10px 15px 10px;
   }
 
   .message {
