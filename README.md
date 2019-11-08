@@ -11,6 +11,9 @@ HTML5 <br>
 CSS3 <br>
 JavaScript
 
+# Images
+Images from https://www.pexels.com/
+
 <br>
 <br>
 Sofie Nyblad 2019
