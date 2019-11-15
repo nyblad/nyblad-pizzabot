@@ -6,7 +6,8 @@ This was a pair-programming project so afterwards I have made my own pizzabot wi
 
 # Learning objectives
 How to use functions & conditionals <br>
-How to modify the DOM using JavaScript
+How to modify the DOM using JavaScript <br>
+How to do pair-programming remote
 
 # Technologies used
 HTML5 <br>
