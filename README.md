@@ -5,17 +5,17 @@ The pizzabot has a menu of three pizzas and you can order one sort and also type
 This was a pair-programming project so afterwards I have made my own pizzabot with my own twist to try out some more functions.<br><br>
 https://nyblad-project-4.netlify.com/
 
-# Learning objectives
+## Learning objectives
 How to use functions & conditionals <br>
 How to modify the DOM using JavaScript <br>
 How to do pair-programming remote
 
-# Technologies used
+## Technologies used
 HTML5 <br>
 CSS3 <br>
 JavaScript
 
-# Images
+## Images/Credits
 Images from https://www.pexels.com/
 
 <br>
